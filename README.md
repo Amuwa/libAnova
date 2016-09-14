@@ -3,6 +3,9 @@ ANOVA library for C++
 
 ANOVA, ANAlysis Of VAriance, the method of analysing the significance of contribution of factors.
 
+![screenshot](https://github.com/Amuwa/libAnova/blob/master/screenshot.png?raw=true  "Screen shot")
+
+
 # Usage
 
 Download the code and include them into your C++ project
