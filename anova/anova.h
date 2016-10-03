@@ -95,19 +95,26 @@ public:
     //
     //API:
     void SetColumnName(int col, string name); //col 0-based
+    void SetColumnNames(vector<string> names);
+
     void AddData(vector<double> x, double y);
     void AddData(double x[], double y, int cols=-1);
     void AddData(int x[], double y, int cols=-1);
     //
     SignificanceReport doANOVA();
     //
+    void ExportToMatlabScript(string mfile);
+
 protected:
     //
     bool dEq(double x, double y);
     int FreedomOfCol(int col);
     double averageY();
     double SumOfYatLevel(int col, double v);
-    double R(int col);
+
+    int RepeatOfLevel(int col, double v);
+    double R(int col);//obsolete, cannot use
+    double SumSqrOf(int col);
 
     double P();
     double W();

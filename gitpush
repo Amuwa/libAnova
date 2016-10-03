@@ -1,0 +1,15 @@
+#!/bin/bash
+git add *.md
+git add LICENSE
+git add gitpush
+git add anova/* 
+git add example/*
+git add example/example/*
+git add example/build/*.m
+
+git commit -m "bug fix in sum of squared errors"
+git push origin master
+
+
+
+
