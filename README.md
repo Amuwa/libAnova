@@ -29,8 +29,9 @@ build system for the platform (linux, mac or Windows). `$ cmake ..`
 **NB** Steps 2 - 4 can be achieved by running [./run.sh](run.sh) file in root repo. 
 
 - If using Windows, a Visual Studio project will be created inside `build` directory. Open `[build/anovacpp.sln](build/anovacpp.sln) 
-- For unix systems, an executable will be created inside the build directory [build/anovacpp](build/anovacpp)
+- For unix systems, you need to run `$ make` to create an executable inside the build directory [build/anovacpp](build/anovacpp)
 
+Video instructions are found in [instructions](./instructions) folder
 
 Please see the example code.
 
